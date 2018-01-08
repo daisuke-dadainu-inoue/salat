@@ -8,12 +8,19 @@ import javax.servlet.annotation.WebServlet;
 
 import java.io.IOException;
 
-@WebServlet("/salat")
-public class App extends HttpServlet {
+@WebServlet("/")
+public class SalatServlet extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
-        ServletOutputStream os = res.getOutputStream(); 
-        os.println("Got it!");
+        ServletOutputStream os = res.getOutputStream();
+        os.println("index.jsp");
+    }
+
+    @Override
+    public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+        req.setCharacterEncoding("UTF-8");
+
+        res.sendRedirect("index.jsp");
     }
 }
