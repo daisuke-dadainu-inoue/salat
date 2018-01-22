@@ -1,6 +1,6 @@
 /** サーブレットパッケージ */
 
-package com.salat.servlet;
+package com.salat.controller.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

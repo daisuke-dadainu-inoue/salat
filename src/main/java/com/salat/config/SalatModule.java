@@ -8,7 +8,7 @@ import java.util.Properties;
 import com.google.inject.AbstractModule;
 import com.google.inject.name.Names;
 import com.google.inject.servlet.ServletModule;
-import com.salat.servlet.SalatServlet;
+import com.salat.controller.servlet.SalatServlet;
 
 /** Salatモジュール */
 public class SalatModule extends AbstractModule {
