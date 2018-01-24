@@ -21,7 +21,7 @@ import com.google.gson.JsonParseException;
 import com.google.gson.JsonParser;
 import com.salat.exception.ValidationException;
 
-/** Citrus 用リクエストラッパ */
+/** Salatリクエストラッパ */
 public class SalatHttpServletRequest extends HttpServletRequestWrapper {
 
     private static final int TOKEN_LENGTH = 4;
