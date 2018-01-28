@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.salat.common.controller.filter;
+package com.salat.sui.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;

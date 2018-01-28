@@ -1,9 +1,9 @@
 /** 設定パッケージ */
-package com.salat.common.config;
+package com.salat.sui.config;
 
 import com.google.inject.servlet.ServletModule;
-import com.salat.common.controller.filter.SalatFilter;
-import com.salat.common.controller.servlet.SalatServlet;
+import com.salat.sui.filter.SalatFilter;
+import com.salat.sui.servlet.SalatServlet;
 
 /** SalatModule */
 public class SalatModule extends ServletModule {

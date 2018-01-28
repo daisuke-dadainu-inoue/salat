@@ -1,6 +1,6 @@
 /** 設定パッケージ */
 
-package com.salat.common.config;
+package com.salat.sui.config;
 
 import static java.lang.Thread.currentThread;
 import java.io.IOException;

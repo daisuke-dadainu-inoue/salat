@@ -1,5 +1,5 @@
 /** 設定パッケージ */
-package com.salat.common.config;
+package com.salat.sui.config;
 
 import javax.servlet.annotation.WebListener;
 import com.google.inject.Guice;
