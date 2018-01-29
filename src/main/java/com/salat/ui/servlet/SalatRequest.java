@@ -1,14 +1,14 @@
-/** servletPackage */
-package com.salat.sui.servlet;
+/** サーブレットパッケージ */
+package com.salat.ui.servlet;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
 
-/** SalatRequestClass */
+/** Salatリクエストクラス */
 public class SalatRequest extends HttpServletRequestWrapper {
 
     /**
-     * DefaultConstrustors
+     * デフォルトコンストラクタ
      *
      * @param request
      */

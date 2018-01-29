@@ -1,15 +1,15 @@
-/** sservletPackage */
-package com.salat.sui.servlet;
+/** サーブレットクラス */
+package com.salat.ui.servlet;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletResponseWrapper;
 
-/** SalatResponseClass */
+/** Salatレスポンスクラス */
 public class SalatResponse extends HttpServletResponseWrapper {
 
     /**
-     * DefalutConstructors
-     * 
+     * デフォルトコンストラクタ
+     *
      * @param response
      */
     public SalatResponse(HttpServletResponse response) {

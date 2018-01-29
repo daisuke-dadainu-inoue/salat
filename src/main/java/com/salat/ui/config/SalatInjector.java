@@ -1,6 +1,6 @@
 /** 設定パッケージ */
 
-package com.salat.sui.config;
+package com.salat.ui.config;
 
 import static java.lang.Thread.currentThread;
 import java.io.IOException;
@@ -9,13 +9,13 @@ import java.util.Properties;
 import com.google.inject.AbstractModule;
 import com.google.inject.name.Names;
 
-/** Salatモジュール */
+/** Salatインジェクタークラス */
 public class SalatInjector extends AbstractModule {
 
     /** プロパティ名 */
     private final String PROPERTY_NAME = "salat.properties";
 
-    /** 設定 */
+    /** 設定メソッド */
     @Override
     protected void configure() {
 
@@ -31,7 +31,7 @@ public class SalatInjector extends AbstractModule {
     }
 
     /**
-     * プロパティ読込
+     * プロパティ読込メソッド
      *
      * @param inputStream
      *            入力ストリーム

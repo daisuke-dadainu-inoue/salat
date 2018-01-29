@@ -1,7 +1,5 @@
-/**
- *
- */
-package com.salat.sui.filter;
+/** フィルターパッケージ */
+package com.salat.ui.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -11,25 +9,25 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-/** ServletFilter */
+/** Salatフィルタークラス */
 public class SalatFilter implements Filter {
 
     /** 初期化メソッド */
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        // TODO 自動生成されたメソッド・スタブ
+        // 子クラス実装
     }
 
     /** フィルターメソッド */
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
-        // TODO 自動生成されたメソッド・スタブ
+        // 子クラス実装
     }
 
     /** フィルターメソッド */
     @Override
     public void destroy() {
-        // TODO 自動生成されたメソッド・スタブ
+        // 子クラス実装
     }
 }
