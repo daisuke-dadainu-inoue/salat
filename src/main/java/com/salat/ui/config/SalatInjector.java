@@ -20,7 +20,6 @@ public class SalatInjector extends AbstractModule {
     protected void configure() {
         // 設定ファイルバインド
         bindProperties();
-
         // サーブレット・フィルタ登録
         install(new SalatModule());
     }

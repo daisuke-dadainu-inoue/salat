@@ -8,8 +8,10 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import com.google.inject.Singleton;
 
 /** Salatフィルタークラス */
+@Singleton
 public class SalatFilter implements Filter {
 
     /** 初期化メソッド */
@@ -22,7 +24,7 @@ public class SalatFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
-        // 子クラス実装
+        chain.doFilter(request, response);
     }
 
     /** フィルターメソッド */
