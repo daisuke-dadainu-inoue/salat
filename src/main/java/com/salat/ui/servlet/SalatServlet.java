@@ -19,7 +19,9 @@ public class SalatServlet extends BaseServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
         try {
-            resp.getWriter().println("Hello Salat");
+            String user = req.getParameter("user");
+            String password = req.getParameter("password");
+            resp.getWriter().println("Hello Salat" + user + password);
         } catch (IOException ioException) {
             ioException.printStackTrace();
         }

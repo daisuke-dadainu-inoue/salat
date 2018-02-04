@@ -9,4 +9,7 @@ public class SalatUrl {
 
     /** hello */
     public static final String HELLO = SLASH + "hello";
+
+    /** ping */
+    public static final String PING = SLASH + "ping";
 }
