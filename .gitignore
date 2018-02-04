@@ -1,3 +1,6 @@
 /target/*
 
 /target/
+
+/src/main/resources/mybatis-config.xml
+
